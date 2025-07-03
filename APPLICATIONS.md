@@ -99,11 +99,6 @@ Complete office suite with full document editing capabilities:
 - **Supports:** PDF, EPUB, images, DjVu, PostScript
 - **Documentation:** [docs](https://docs.kde.org/stable/en/applications/okular/)
 
-### Evince
-- **Command:** `evince`
-- **Description:** GNOME document viewer
-- **Supports:** PDF, DjVu, TIFF, PostScript
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/Evince)
 
 ## Graphics & Media
 
@@ -125,11 +120,6 @@ Complete office suite with full document editing capabilities:
 - **Features:** Slideshow, basic editing, RAW support
 - **Documentation:** [docs](https://docs.kde.org/stable/en/applications/gwenview/)
 
-### EOG (Eye of GNOME)
-- **Command:** `eog`
-- **Description:** Simple and fast image viewer
-- **Features:** Basic image viewing, slideshow, simple editing
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/EyeOfGnome)
 
 ### Rhythmbox
 - **Command:** `rhythmbox`
@@ -151,11 +141,6 @@ Complete office suite with full document editing capabilities:
 - **Best for:** System administration, configuration files, programming
 - **Documentation:** [docs](https://vimhelp.org/)
 
-### GNOME Text Editor
-- **Command:** `gnome-text-editor`
-- **Description:** Modern, simple text editor
-- **Best for:** Quick text editing, notes, simple coding
-- **Documentation:** [docs](https://apps.gnome.org/TextEditor/)
 
 ### Git
 - **Command:** `git`
@@ -185,27 +170,16 @@ Complete office suite with full document editing capabilities:
 ## System Utilities
 
 
-### Calculator (KDE)
+### Calculator
 - **Command:** `kcalc`
 - **Description:** Scientific calculator with multiple modes
 - **Documentation:** [docs](https://docs.kde.org/stable/en/applications/kcalc/)
 
-### Calculator (GNOME)
-- **Command:** `gnome-calculator`
-- **Description:** Simple calculator with advanced functions
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/Calculator)
-
-### Archive Manager (KDE)
+### Archive Manager
 - **Command:** `ark`
 - **Description:** Archive creation and extraction tool
 - **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
 - **Documentation:** [docs](https://docs.kde.org/stable/en/applications/ark/)
-
-### Archive Manager (GNOME)
-- **Command:** `file-roller`
-- **Description:** Archive manager for GNOME
-- **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
-- **Documentation:** [docs](https://help.gnome.org/users/file-roller/)
 
 
 ## Quick Launch Examples
@@ -258,11 +232,8 @@ ssh -X -i username_ssh_key username@10.0.0.1 okular
 # Launch VLC media player
 ssh -X -i username_ssh_key username@10.0.0.1 vlc
 
-# Launch image viewer (KDE)
+# Launch image viewer
 ssh -X -i username_ssh_key username@10.0.0.1 gwenview
-
-# Launch image viewer (GNOME)
-ssh -X -i username_ssh_key username@10.0.0.1 eog
 
 # Launch music player
 ssh -X -i username_ssh_key username@10.0.0.1 rhythmbox
