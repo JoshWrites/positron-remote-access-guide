@@ -31,6 +31,7 @@ Choose the method that best fits your needs:
 - Launch one app via SSH X11 forwarding, which can then launch others as needed
 - No desktop environment overhead, but full application ecosystem access
 - **Key advantage:** Start with one app (like Dolphin file manager), then launch any related apps by clicking files
+- **Available apps:** [View complete application library →](APPLICATIONS.md)
 - Best for: Productive workflows, integrated application usage, faster than full desktop
 - **Setup:** Install X server (Windows/Mac), use SSH -X
 
@@ -322,32 +323,6 @@ chmod +x ~/.local/share/applications/positron-desktop.desktop
 </details>
 
 ---
-
-## Applications Available
-
-📱 **[View Complete Application Library →](APPLICATIONS.md)**
-
-The system includes:
-- **AI Tools:** Msty for AI chat and assistance
-- **Office Suite:** LibreOffice (Writer, Calc, Impress, Draw, Base, Math)
-- **Web Browsers:** Firefox, Brave Browser
-- **Development:** Git, GitHub CLI, Node.js, Python, Vim
-- **Graphics & Media:** Shotwell, VLC, Rhythmbox, image viewers
-- **System Tools:** File managers, text editors, calculators, archive tools
-
-### Quick Launch Examples
-```bash
-# Start with file manager (recommended) - then launch other apps by clicking files
-ssh -X -i username_ssh_key username@10.0.0.1 dolphin
-
-# Launch Msty AI chat directly
-ssh -X -i username_ssh_key username@10.0.0.1 msty
-
-# Launch LibreOffice Writer directly
-ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --writer
-```
-
-**Pro Tip:** Starting with Dolphin file manager gives you access to the entire application ecosystem. Double-click any file to automatically launch the appropriate application!
 
 ## Quick Reference
 
