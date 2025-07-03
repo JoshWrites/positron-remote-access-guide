@@ -27,10 +27,11 @@ Choose the method that best fits your needs:
 - Best for: Extended work sessions, productivity tasks
 - **Setup:** Install X2Go client, configure session
 
-### 🎯 **Single Application** (Fastest for specific tasks)
-- Launch individual apps directly via SSH with X11 forwarding
-- No desktop environment needed
-- Best for: Quick access to specific tools (Msty, LibreOffice, etc.)
+### 🎯 **Single Application + Ecosystem** (Recommended for most users)
+- Launch one app via SSH X11 forwarding, which can then launch others as needed
+- No desktop environment overhead, but full application ecosystem access
+- **Key advantage:** Start with one app (like Dolphin file manager), then launch any related apps by clicking files
+- Best for: Productive workflows, integrated application usage, faster than full desktop
 - **Setup:** Install X server (Windows/Mac), use SSH -X
 
 ### 💻 **Terminal Only** (System administration)
@@ -336,15 +337,17 @@ The system includes:
 
 ### Quick Launch Examples
 ```bash
-# Launch Msty AI chat
+# Start with file manager (recommended) - then launch other apps by clicking files
+ssh -X -i username_ssh_key username@10.0.0.1 dolphin
+
+# Launch Msty AI chat directly
 ssh -X -i username_ssh_key username@10.0.0.1 msty
 
-# Launch LibreOffice Writer
+# Launch LibreOffice Writer directly
 ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --writer
-
-# Launch file manager
-ssh -X -i username_ssh_key username@10.0.0.1 dolphin
 ```
+
+**Pro Tip:** Starting with Dolphin file manager gives you access to the entire application ecosystem. Double-click any file to automatically launch the appropriate application!
 
 ## Quick Reference
 
