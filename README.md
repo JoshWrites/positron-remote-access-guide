@@ -398,8 +398,7 @@ scp -r -i username_ssh_key local_folder/ username@10.0.0.1:~/
 
 </details>
 
-<details>
-<summary>🔧 <strong>Troubleshooting</strong></summary>
+## Troubleshooting
 
 ### VPN Won't Connect?
 - Check internet connection
@@ -450,8 +449,6 @@ scp -r -i username_ssh_key local_folder/ username@10.0.0.1:~/
 - **X2Go:** Change Colors to 256, Compression to 4-balanced
 - **SSH X11:** Add `-C` flag: `ssh -XC -i key user@host`
 - **Network:** Use compression on slow connections
-
-</details>
 
 ## Support
 
