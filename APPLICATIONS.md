@@ -42,7 +42,7 @@ When you launch any application via SSH X11 forwarding, that application can lau
 - **Command:** `msty`
 - **Description:** AI chat interface for conversations with various language models
 - **Best for:** Quick AI assistance, code help, general questions
-- **Documentation:** [docs](https://msty.app/docs)
+- **Documentation:** [docs](https://docs.msty.app/)
 
 
 ## Office & Productivity Suite
@@ -70,7 +70,7 @@ Complete office suite with full document editing capabilities:
 - **Command:** `brave-browser`
 - **Description:** Privacy-focused web browser with built-in ad blocking
 - **Features:** Enhanced privacy, crypto wallet, tor browsing
-- **Documentation:** [docs](https://support.brave.com/)
+- **Documentation:** [docs](https://support.brave.app/hc/en-us)
 
 
 ## File Management & System Tools
@@ -79,25 +79,25 @@ Complete office suite with full document editing capabilities:
 - **Command:** `dolphin`
 - **Description:** Advanced file manager with dual-pane support
 - **Features:** Network browsing, archive support, preview pane
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/dolphin/dolphin/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/dolphin/)
 
 ### Kate
 - **Command:** `kate`
 - **Description:** Advanced text editor with syntax highlighting
 - **Best for:** Code editing, configuration files, markdown
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/kate/kate/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/kate/)
 
 ### Konsole
 - **Command:** `konsole`
 - **Description:** Terminal emulator with tabs and profiles
 - **Features:** Multiple tabs, customizable profiles, split view
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/konsole/konsole/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/konsole/)
 
 ### Okular
 - **Command:** `okular`
 - **Description:** Universal document viewer
 - **Supports:** PDF, EPUB, images, DjVu, PostScript
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/okular/okular/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/okular/)
 
 ### Evince
 - **Command:** `evince`
@@ -117,13 +117,13 @@ Complete office suite with full document editing capabilities:
 - **Command:** `vlc`
 - **Description:** Universal media player
 - **Supports:** Most video/audio formats, streaming, DVD/Blu-ray
-- **Documentation:** [docs](https://www.videolan.org/doc/)
+- **Documentation:** [docs](https://wiki.videolan.org/Documentation:User_Guide/)
 
 ### Gwenview
 - **Command:** `gwenview`
 - **Description:** Fast image viewer and basic editor
 - **Features:** Slideshow, basic editing, RAW support
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/gwenview/gwenview/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/gwenview/)
 
 ### EOG (Eye of GNOME)
 - **Command:** `eog`
@@ -141,7 +141,7 @@ Complete office suite with full document editing capabilities:
 - **Command:** `totem`
 - **Description:** GNOME video player
 - **Features:** Video playback, subtitle support, playlist
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/Videos)
+- **Documentation:** [docs](https://help.gnome.org/users/totem/stable/)
 
 ## Development Tools
 
@@ -188,7 +188,7 @@ Complete office suite with full document editing capabilities:
 ### Calculator (KDE)
 - **Command:** `kcalc`
 - **Description:** Scientific calculator with multiple modes
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/kcalc/kcalc/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/kcalc/)
 
 ### Calculator (GNOME)
 - **Command:** `gnome-calculator`
@@ -199,13 +199,13 @@ Complete office suite with full document editing capabilities:
 - **Command:** `ark`
 - **Description:** Archive creation and extraction tool
 - **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/ark/ark/)
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/ark/)
 
 ### Archive Manager (GNOME)
 - **Command:** `file-roller`
 - **Description:** Archive manager for GNOME
 - **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/FileRoller)
+- **Documentation:** [docs](https://help.gnome.org/users/file-roller/)
 
 
 ## Quick Launch Examples
