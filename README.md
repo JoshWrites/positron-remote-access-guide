@@ -6,33 +6,38 @@ Positron is a **high-performance remote workstation** that transforms how you ap
 
 ## The Core Value Proposition
 
-**Why use a remote system?** Modern laptops excel at portability but struggle with sustained performance. Positron bridges this gap by offering:
+**Why use a remote system?** While cloud services offer raw power, Positron provides something more valuable: **complete control and privacy**. Positron bridges the gap between laptop limitations and cloud dependencies by offering:
 
-- **Server-grade computing**: AMD Ryzen 5950X (16c/32t), 64GB RAM, RX 7900 XTX
+- **Data sovereignty**: Your files and AI conversations never leave your infrastructure
+- **Customizable environment**: Install anything, configure everything, no platform restrictions
 - **Persistent workspaces**: Your work continues even when you disconnect
 - **Multi-device access**: Same environment from laptop, tablet, or any internet-connected device
-- **Specialized environments**: Dedicated AI, development, and rendering capabilities
+- **Dedicated hardware**: AMD Ryzen 5950X (16c/32t), 64GB RAM, RX 7900 XTX exclusively for you
 
 <details>
 <summary><strong>Key Capabilities</strong></summary>
-
-### AI Workstation
-- **Large language models**: Host 70B+ models locally with Ollama CLI
-- **GUI interface**: Msty for visual model management and conversations
-- **Always-on AI**: Models loaded and ready, no cold start delays
-- **Privacy**: Your data never leaves your infrastructure
-
-### Computational Powerhouse
-- **Video rendering**: CPU-intensive exports without laptop thermal throttling
-- **Software builds**: Large codebases compile faster with 32 threads
-- **Data processing**: 64GB RAM handles datasets that would crash laptops
-- **Development environments**: Multiple VMs, containers, and services simultaneously
 
 ### Privacy & Security
 - **Data sovereignty**: Your files and AI conversations never leave your infrastructure
 - **No cloud surveillance**: Unlike Google Docs or ChatGPT, your data isn't scanned or mined
 - **Private AI models**: Local inference means sensitive conversations stay completely private
 - **Secure remote access**: WireGuard VPN with key-based authentication
+
+### Full Customization
+- **Root access**: Install any software, modify any configuration
+- **Your choice of tools**: No platform restrictions or app store limitations
+- **Custom AI models**: Load and run any models you want, not just what vendors provide
+- **Personal infrastructure**: Configure networking, security, and services your way
+
+### AI Workstation
+- **Local language models**: Host 70B+ models with Ollama CLI and Msty GUI
+- **Image generation**: ComfyUI for Stable Diffusion and AI art workflows
+- **Always-on AI**: Models loaded and ready, no cold start delays or usage limits
+
+### Dedicated Computing
+- **Exclusive hardware**: AMD Ryzen 5950X (16c/32t), 64GB RAM, RX 7900 XTX just for you
+- **Sustained performance**: No thermal throttling or resource sharing with other users
+- **Persistent environments**: Long-running processes, development servers, background tasks
 
 ### Hybrid Workflows
 - **Edit locally, render remotely**: Responsive editing with server-grade processing
