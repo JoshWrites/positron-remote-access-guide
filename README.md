@@ -12,7 +12,6 @@ Positron is a **high-performance remote workstation** that transforms how you ap
 - **Customizable environment**: Install anything, configure everything, no platform restrictions
 - **Persistent workspaces**: Your work continues even when you disconnect
 - **Multi-device access**: Same environment from laptop, tablet, or any internet-connected device
-- **Dedicated hardware**: AMD Ryzen 5950X (16c/32t), 64GB RAM, RX 7900 XTX exclusively for you
 
 <details>
 <summary><strong>Key Capabilities</strong></summary>
