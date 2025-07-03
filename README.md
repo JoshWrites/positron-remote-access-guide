@@ -28,6 +28,12 @@ Positron is a **high-performance remote workstation** that transforms how you ap
 - **Data processing**: 64GB RAM handles datasets that would crash laptops
 - **Development environments**: Multiple VMs, containers, and services simultaneously
 
+### Privacy & Security
+- **Data sovereignty**: Your files and AI conversations never leave your infrastructure
+- **No cloud surveillance**: Unlike Google Docs or ChatGPT, your data isn't scanned or mined
+- **Private AI models**: Local inference means sensitive conversations stay completely private
+- **Secure remote access**: WireGuard VPN with key-based authentication
+
 ### Hybrid Workflows
 - **Edit locally, render remotely**: Responsive editing with server-grade processing
 - **Git-based collaboration**: Code locally, build/test/deploy remotely
