@@ -50,6 +50,13 @@ When you launch any application via SSH X11 forwarding, that application can lau
 - **Best for:** AI model management, scripting, API access
 - **Usage:** `ollama list`, `ollama run model-name`
 
+### ComfyUI
+- **Command:** `comfyui` or access via web browser at `http://10.0.0.1:8188`
+- **Description:** Node-based interface for AI image generation and processing
+- **Best for:** Stable Diffusion workflows, image generation, AI art creation
+- **Features:** Visual workflow editor, custom nodes, batch processing
+- **Documentation:** [docs](https://docs.comfy.org/)
+
 ## Development Environment
 
 ### Kate
@@ -160,6 +167,9 @@ ssh -X -i username_ssh_key username@10.0.0.1 msty
 
 # Use Ollama CLI for model management
 ssh -i username_ssh_key username@10.0.0.1 ollama list
+
+# Access ComfyUI via web browser (after connecting to VPN)
+# Navigate to: http://10.0.0.1:8188
 ```
 
 ### Development Environment
