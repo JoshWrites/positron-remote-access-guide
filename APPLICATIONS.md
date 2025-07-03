@@ -24,7 +24,7 @@ Complete office suite with full document editing capabilities:
 - **Math:** `libreoffice --math` - Formula editor
 - **Documentation:** [docs](https://documentation.libreoffice.org/)
 
-## Web & Communication
+## Web Browsers
 
 ### Firefox
 - **Command:** `firefox`
@@ -38,23 +38,6 @@ Complete office suite with full document editing capabilities:
 - **Features:** Enhanced privacy, crypto wallet, tor browsing
 - **Documentation:** [docs](https://support.brave.com/)
 
-### Thunderbird
-- **Command:** `thunderbird`
-- **Description:** Full-featured email client
-- **Features:** Multiple accounts, calendar, chat, encryption
-- **Documentation:** [docs](https://support.mozilla.org/en-US/products/thunderbird)
-
-### Discord
-- **Command:** `discord`
-- **Description:** Communication platform for text, voice, and video
-- **Best for:** Team communication, community interaction
-- **Documentation:** [docs](https://support.discord.com/)
-
-### Zoom
-- **Command:** `zoom`
-- **Description:** Video conferencing platform
-- **Best for:** Virtual meetings, webinars, screen sharing
-- **Documentation:** [docs](https://support.zoom.us/)
 
 ## File Management & System Tools
 
@@ -164,19 +147,9 @@ Complete office suite with full document editing capabilities:
 - **Features:** Extensive library ecosystem, data science tools
 - **Documentation:** [docs](https://docs.python.org/3/)
 
-### Docker
-- **Command:** `docker`
-- **Description:** Containerization platform
-- **Features:** Application containerization, deployment
-- **Documentation:** [docs](https://docs.docker.com/)
 
 ## System Utilities
 
-### KDE System Settings
-- **Command:** `systemsettings5`
-- **Description:** System configuration interface
-- **Note:** FAMILY users have full access, FRIENDS users have limited access
-- **Documentation:** [docs](https://docs.kde.org/trunk5/en/systemsettings/systemsettings/)
 
 ### Calculator (KDE)
 - **Command:** `kcalc`
@@ -200,11 +173,6 @@ Complete office suite with full document editing capabilities:
 - **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
 - **Documentation:** [docs](https://wiki.gnome.org/Apps/FileRoller)
 
-### Disk Usage Analyzer
-- **Command:** `baobab`
-- **Description:** Visual disk usage analyzer
-- **Features:** Graphical disk space usage, cleanup suggestions
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/DiskUsageAnalyzer)
 
 ## Quick Launch Examples
 
@@ -262,17 +230,8 @@ ssh -X -i username_ssh_key username@10.0.0.1 rhythmbox
 ssh -X -i username_ssh_key username@10.0.0.1 totem
 ```
 
-### Communication Applications
+### Web Browsers
 ```bash
-# Launch Discord
-ssh -X -i username_ssh_key username@10.0.0.1 discord
-
-# Launch Zoom
-ssh -X -i username_ssh_key username@10.0.0.1 zoom
-
-# Launch Thunderbird email
-ssh -X -i username_ssh_key username@10.0.0.1 thunderbird
-
 # Launch alternative browser
 ssh -X -i username_ssh_key username@10.0.0.1 brave-browser
 ```
@@ -303,17 +262,12 @@ ssh -Y -i username_ssh_key username@10.0.0.1 shotwell
 - Have access to all pre-installed applications
 - Can request software installation by contacting admin
 
-## Shared Resources
+## Available Resources
 
-### AI Models (All Users)
+### AI Models
 - **Location:** `/opt/shared-models`
-- **Access:** Read-only for FRIENDS, full access for FAMILY
-- **Models:** Various LLMs optimized for different tasks
-
-### Shared Documents (FAMILY Only)
-- **Location:** `/shared`
-- **Access:** FAMILY users can share files here
-- **Purpose:** Collaboration between family members
+- **Description:** Pre-installed language models for AI applications
+- **Usage:** Automatically available to Msty and other AI tools
 
 ---
 

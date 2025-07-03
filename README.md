@@ -330,8 +330,7 @@ The system includes:
 - **AI Tools:** Msty for AI chat and assistance
 - **Office Suite:** LibreOffice (Writer, Calc, Impress, Draw, Base, Math)
 - **Web Browsers:** Firefox, Brave Browser
-- **Communication:** Discord, Zoom, Thunderbird email
-- **Development:** Git, GitHub CLI, Node.js, Python, Docker, Vim
+- **Development:** Git, GitHub CLI, Node.js, Python, Vim
 - **Graphics & Media:** Shotwell, VLC, Rhythmbox, image viewers
 - **System Tools:** File managers, text editors, calculators, archive tools
 
