@@ -327,11 +327,13 @@ chmod +x ~/.local/share/applications/positron-desktop.desktop
 📱 **[View Complete Application Library →](APPLICATIONS.md)**
 
 The system includes:
-- **AI Tools:** Msty, Msty Studio
-- **Office Suite:** LibreOffice (Writer, Calc, Impress, Draw)
-- **Development:** VS Code, Git, text editors
-- **Graphics & Media:** GIMP, VLC, image viewers
-- **System Tools:** File managers, browsers, utilities
+- **AI Tools:** Msty for AI chat and assistance
+- **Office Suite:** LibreOffice (Writer, Calc, Impress, Draw, Base, Math)
+- **Web Browsers:** Firefox, Brave Browser
+- **Communication:** Discord, Zoom, Thunderbird email
+- **Development:** Git, GitHub CLI, Node.js, Python, Docker, Vim
+- **Graphics & Media:** Shotwell, VLC, Rhythmbox, image viewers
+- **System Tools:** File managers, text editors, calculators, archive tools
 
 ### Quick Launch Examples
 ```bash

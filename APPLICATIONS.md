@@ -10,11 +10,6 @@ Complete list of applications available on the Positron system.
 - **Best for:** Quick AI assistance, code help, general questions
 - **Documentation:** [docs](https://msty.app/docs)
 
-### Msty Studio
-- **Command:** `mstystudio`
-- **Description:** Advanced AI development environment with enhanced features
-- **Best for:** Complex AI workflows, development projects, extended sessions
-- **Documentation:** [docs](https://msty.app/studio)
 
 ## Office & Productivity Suite
 
@@ -36,6 +31,30 @@ Complete office suite with full document editing capabilities:
 - **Description:** Full-featured web browser
 - **Features:** Extensions support, bookmarks sync, privacy controls
 - **Documentation:** [docs](https://support.mozilla.org/en-US/products/firefox)
+
+### Brave Browser
+- **Command:** `brave-browser`
+- **Description:** Privacy-focused web browser with built-in ad blocking
+- **Features:** Enhanced privacy, crypto wallet, tor browsing
+- **Documentation:** [docs](https://support.brave.com/)
+
+### Thunderbird
+- **Command:** `thunderbird`
+- **Description:** Full-featured email client
+- **Features:** Multiple accounts, calendar, chat, encryption
+- **Documentation:** [docs](https://support.mozilla.org/en-US/products/thunderbird)
+
+### Discord
+- **Command:** `discord`
+- **Description:** Communication platform for text, voice, and video
+- **Best for:** Team communication, community interaction
+- **Documentation:** [docs](https://support.discord.com/)
+
+### Zoom
+- **Command:** `zoom`
+- **Description:** Video conferencing platform
+- **Best for:** Virtual meetings, webinars, screen sharing
+- **Documentation:** [docs](https://support.zoom.us/)
 
 ## File Management & System Tools
 
@@ -63,13 +82,19 @@ Complete office suite with full document editing capabilities:
 - **Supports:** PDF, EPUB, images, DjVu, PostScript
 - **Documentation:** [docs](https://docs.kde.org/trunk5/en/okular/okular/)
 
+### Evince
+- **Command:** `evince`
+- **Description:** GNOME document viewer
+- **Supports:** PDF, DjVu, TIFF, PostScript
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/Evince)
+
 ## Graphics & Media
 
-### GIMP
-- **Command:** `gimp`
-- **Description:** GNU Image Manipulation Program
-- **Best for:** Photo editing, digital art, image creation
-- **Documentation:** [docs](https://docs.gimp.org/)
+### Shotwell
+- **Command:** `shotwell`
+- **Description:** Photo organizer and basic editor
+- **Best for:** Photo management, basic editing, organizing image collections
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/Shotwell)
 
 ### VLC Media Player
 - **Command:** `vlc`
@@ -83,19 +108,67 @@ Complete office suite with full document editing capabilities:
 - **Features:** Slideshow, basic editing, RAW support
 - **Documentation:** [docs](https://docs.kde.org/trunk5/en/gwenview/gwenview/)
 
+### EOG (Eye of GNOME)
+- **Command:** `eog`
+- **Description:** Simple and fast image viewer
+- **Features:** Basic image viewing, slideshow, simple editing
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/EyeOfGnome)
+
+### Rhythmbox
+- **Command:** `rhythmbox`
+- **Description:** Music player and library manager
+- **Features:** Music library, playlists, radio, podcasts
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/Rhythmbox)
+
+### Totem
+- **Command:** `totem`
+- **Description:** GNOME video player
+- **Features:** Video playback, subtitle support, playlist
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/Videos)
+
 ## Development Tools
 
-### Visual Studio Code
-- **Command:** `code`
-- **Description:** Modern code editor with extensions
-- **Features:** IntelliSense, debugging, Git integration
-- **Documentation:** [docs](https://code.visualstudio.com/docs)
+### Vim
+- **Command:** `vim`
+- **Description:** Powerful text editor for advanced users
+- **Best for:** System administration, configuration files, programming
+- **Documentation:** [docs](https://vimhelp.org/)
+
+### GNOME Text Editor
+- **Command:** `gnome-text-editor`
+- **Description:** Modern, simple text editor
+- **Best for:** Quick text editing, notes, simple coding
+- **Documentation:** [docs](https://apps.gnome.org/TextEditor/)
 
 ### Git
 - **Command:** `git`
 - **Description:** Version control system
 - **Includes:** Full Git suite with GUI tools
 - **Documentation:** [docs](https://git-scm.com/doc)
+
+### GitHub CLI
+- **Command:** `gh`
+- **Description:** GitHub's official command line tool
+- **Features:** Repository management, issues, pull requests
+- **Documentation:** [docs](https://cli.github.com/manual/)
+
+### Node.js
+- **Command:** `node`
+- **Description:** JavaScript runtime environment
+- **Features:** Server-side JavaScript, package ecosystem
+- **Documentation:** [docs](https://nodejs.org/en/docs/)
+
+### Python 3
+- **Command:** `python3`
+- **Description:** High-level programming language
+- **Features:** Extensive library ecosystem, data science tools
+- **Documentation:** [docs](https://docs.python.org/3/)
+
+### Docker
+- **Command:** `docker`
+- **Description:** Containerization platform
+- **Features:** Application containerization, deployment
+- **Documentation:** [docs](https://docs.docker.com/)
 
 ## System Utilities
 
@@ -105,16 +178,33 @@ Complete office suite with full document editing capabilities:
 - **Note:** FAMILY users have full access, FRIENDS users have limited access
 - **Documentation:** [docs](https://docs.kde.org/trunk5/en/systemsettings/systemsettings/)
 
-### Calculator
+### Calculator (KDE)
 - **Command:** `kcalc`
 - **Description:** Scientific calculator with multiple modes
 - **Documentation:** [docs](https://docs.kde.org/trunk5/en/kcalc/kcalc/)
 
-### Archive Manager
+### Calculator (GNOME)
+- **Command:** `gnome-calculator`
+- **Description:** Simple calculator with advanced functions
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/Calculator)
+
+### Archive Manager (KDE)
 - **Command:** `ark`
 - **Description:** Archive creation and extraction tool
 - **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
 - **Documentation:** [docs](https://docs.kde.org/trunk5/en/ark/ark/)
+
+### Archive Manager (GNOME)
+- **Command:** `file-roller`
+- **Description:** Archive manager for GNOME
+- **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/FileRoller)
+
+### Disk Usage Analyzer
+- **Command:** `baobab`
+- **Description:** Visual disk usage analyzer
+- **Features:** Graphical disk space usage, cleanup suggestions
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/DiskUsageAnalyzer)
 
 ## Quick Launch Examples
 
@@ -122,9 +212,6 @@ Complete office suite with full document editing capabilities:
 ```bash
 # Launch Msty for AI chat
 ssh -X -i username_ssh_key username@10.0.0.1 msty
-
-# Launch Msty Studio for development
-ssh -X -i username_ssh_key username@10.0.0.1 mstystudio
 ```
 
 ### Office Applications
@@ -150,8 +237,11 @@ ssh -X -i username_ssh_key username@10.0.0.1 kate
 # Launch web browser
 ssh -X -i username_ssh_key username@10.0.0.1 firefox
 
-# Launch image editor
-ssh -X -i username_ssh_key username@10.0.0.1 gimp
+# Launch photo organizer
+ssh -X -i username_ssh_key username@10.0.0.1 shotwell
+
+# Launch document viewer
+ssh -X -i username_ssh_key username@10.0.0.1 okular
 ```
 
 ### Media Applications
@@ -159,8 +249,32 @@ ssh -X -i username_ssh_key username@10.0.0.1 gimp
 # Launch VLC media player
 ssh -X -i username_ssh_key username@10.0.0.1 vlc
 
-# Launch image viewer
+# Launch image viewer (KDE)
 ssh -X -i username_ssh_key username@10.0.0.1 gwenview
+
+# Launch image viewer (GNOME)
+ssh -X -i username_ssh_key username@10.0.0.1 eog
+
+# Launch music player
+ssh -X -i username_ssh_key username@10.0.0.1 rhythmbox
+
+# Launch video player
+ssh -X -i username_ssh_key username@10.0.0.1 totem
+```
+
+### Communication Applications
+```bash
+# Launch Discord
+ssh -X -i username_ssh_key username@10.0.0.1 discord
+
+# Launch Zoom
+ssh -X -i username_ssh_key username@10.0.0.1 zoom
+
+# Launch Thunderbird email
+ssh -X -i username_ssh_key username@10.0.0.1 thunderbird
+
+# Launch alternative browser
+ssh -X -i username_ssh_key username@10.0.0.1 brave-browser
 ```
 
 ## Performance Tips
@@ -174,7 +288,7 @@ ssh -XC -i username_ssh_key username@10.0.0.1 application_name
 ### For Graphics-Heavy Applications
 Use trusted X11 forwarding if regular forwarding has issues:
 ```bash
-ssh -Y -i username_ssh_key username@10.0.0.1 gimp
+ssh -Y -i username_ssh_key username@10.0.0.1 shotwell
 ```
 
 ## Installation Notes
