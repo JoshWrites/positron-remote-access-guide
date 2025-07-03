@@ -8,11 +8,13 @@ Complete list of applications available on the Positron system.
 - **Command:** `msty`
 - **Description:** AI chat interface for conversations with various language models
 - **Best for:** Quick AI assistance, code help, general questions
+- **Documentation:** [docs](https://msty.app/docs)
 
 ### Msty Studio
 - **Command:** `mstystudio`
 - **Description:** Advanced AI development environment with enhanced features
 - **Best for:** Complex AI workflows, development projects, extended sessions
+- **Documentation:** [docs](https://msty.app/studio)
 
 ## Office & Productivity Suite
 
@@ -25,6 +27,7 @@ Complete office suite with full document editing capabilities:
 - **Draw:** `libreoffice --draw` - Vector graphics and flowcharts
 - **Base:** `libreoffice --base` - Database management
 - **Math:** `libreoffice --math` - Formula editor
+- **Documentation:** [docs](https://documentation.libreoffice.org/)
 
 ## Web & Communication
 
@@ -32,6 +35,7 @@ Complete office suite with full document editing capabilities:
 - **Command:** `firefox`
 - **Description:** Full-featured web browser
 - **Features:** Extensions support, bookmarks sync, privacy controls
+- **Documentation:** [docs](https://support.mozilla.org/en-US/products/firefox)
 
 ## File Management & System Tools
 
@@ -39,21 +43,25 @@ Complete office suite with full document editing capabilities:
 - **Command:** `dolphin`
 - **Description:** Advanced file manager with dual-pane support
 - **Features:** Network browsing, archive support, preview pane
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/dolphin/dolphin/)
 
 ### Kate
 - **Command:** `kate`
 - **Description:** Advanced text editor with syntax highlighting
 - **Best for:** Code editing, configuration files, markdown
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/kate/kate/)
 
 ### Konsole
 - **Command:** `konsole`
 - **Description:** Terminal emulator with tabs and profiles
 - **Features:** Multiple tabs, customizable profiles, split view
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/konsole/konsole/)
 
 ### Okular
 - **Command:** `okular`
 - **Description:** Universal document viewer
 - **Supports:** PDF, EPUB, images, DjVu, PostScript
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/okular/okular/)
 
 ## Graphics & Media
 
@@ -61,16 +69,19 @@ Complete office suite with full document editing capabilities:
 - **Command:** `gimp`
 - **Description:** GNU Image Manipulation Program
 - **Best for:** Photo editing, digital art, image creation
+- **Documentation:** [docs](https://docs.gimp.org/)
 
 ### VLC Media Player
 - **Command:** `vlc`
 - **Description:** Universal media player
 - **Supports:** Most video/audio formats, streaming, DVD/Blu-ray
+- **Documentation:** [docs](https://www.videolan.org/doc/)
 
 ### Gwenview
 - **Command:** `gwenview`
 - **Description:** Fast image viewer and basic editor
 - **Features:** Slideshow, basic editing, RAW support
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/gwenview/gwenview/)
 
 ## Development Tools
 
@@ -78,11 +89,13 @@ Complete office suite with full document editing capabilities:
 - **Command:** `code`
 - **Description:** Modern code editor with extensions
 - **Features:** IntelliSense, debugging, Git integration
+- **Documentation:** [docs](https://code.visualstudio.com/docs)
 
 ### Git
 - **Command:** `git`
 - **Description:** Version control system
 - **Includes:** Full Git suite with GUI tools
+- **Documentation:** [docs](https://git-scm.com/doc)
 
 ## System Utilities
 
@@ -90,15 +103,18 @@ Complete office suite with full document editing capabilities:
 - **Command:** `systemsettings5`
 - **Description:** System configuration interface
 - **Note:** FAMILY users have full access, FRIENDS users have limited access
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/systemsettings/systemsettings/)
 
 ### Calculator
 - **Command:** `kcalc`
 - **Description:** Scientific calculator with multiple modes
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/kcalc/kcalc/)
 
 ### Archive Manager
 - **Command:** `ark`
 - **Description:** Archive creation and extraction tool
 - **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
+- **Documentation:** [docs](https://docs.kde.org/trunk5/en/ark/ark/)
 
 ## Quick Launch Examples
 
