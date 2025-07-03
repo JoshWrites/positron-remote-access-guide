@@ -398,7 +398,9 @@ scp -r -i username_ssh_key local_folder/ username@10.0.0.1:~/
 
 ## Access Levels
 
-### FAMILY Role
+<details>
+<summary>👨‍👩‍👧‍👦 <strong>FAMILY Role</strong></summary>
+
 - ✅ Full system administrator (sudo) access
 - ✅ Unlimited resources
 - ✅ ALL files and settings access  
@@ -410,7 +412,11 @@ scp -r -i username_ssh_key local_folder/ username@10.0.0.1:~/
   - From internet: VPN → 10.0.0.1
   - System sleeping: Use Wake-on-LAN shortcut
 
-### FRIENDS Role  
+</details>
+
+<details>
+<summary>👥 <strong>FRIENDS Role</strong></summary>
+
 - ✅ Full desktop with private workspace
 - ✅ All applications (Msty, Ollama, LibreOffice)
 - ✅ Private conversations and documents
@@ -423,6 +429,8 @@ scp -r -i username_ssh_key local_folder/ username@10.0.0.1:~/
   - Processes: 200 maximum
   - CPU time: 4 hours/day
   - Disk quota: User home directory only
+
+</details>
 
 ## Troubleshooting
 
