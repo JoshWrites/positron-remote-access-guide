@@ -41,7 +41,9 @@ Choose the method that best fits your needs:
 
 ---
 
-## <details><summary>🪟 Windows Setup</summary>
+<details>
+<summary>🪟 <strong>Windows Setup</strong></summary>
+
 
 ### Step 1: Install Required Software
 
@@ -140,7 +142,9 @@ timeout /t 5
 
 ---
 
-## <details><summary>🍎 macOS Setup</summary>
+<details>
+<summary>🍎 <strong>macOS Setup</strong></summary>
+
 
 ### Step 1: Install Required Software
 
@@ -218,7 +222,9 @@ osascript -e 'tell app "Terminal" to do script "ssh -X -i ~/.ssh/username_ssh_ke
 
 ---
 
-## <details><summary>🐧 Linux Setup</summary>
+<details>
+<summary>🐧 <strong>Linux Setup</strong></summary>
+
 
 ### Step 1: Install Required Software
 
