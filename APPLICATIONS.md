@@ -1,6 +1,6 @@
-# Available Applications
+# Application Library
 
-Complete list of applications available on the Positron system.
+Comprehensive guide to applications available on the Positron system, organized by use case.
 
 ## 🚀 **Key Feature: Application Ecosystem Access**
 
@@ -36,7 +36,7 @@ When you launch any application via SSH X11 forwarding, that application can lau
 
 **Recommended approach:** Start with Dolphin file manager for maximum flexibility!
 
-## AI & Development Tools
+## AI & Machine Learning
 
 ### Msty
 - **Command:** `msty`
@@ -44,42 +44,13 @@ When you launch any application via SSH X11 forwarding, that application can lau
 - **Best for:** Quick AI assistance, code help, general questions
 - **Documentation:** [docs](https://docs.msty.app/)
 
+### Ollama CLI
+- **Command:** `ollama`
+- **Description:** Command-line interface for local language models
+- **Best for:** AI model management, scripting, API access
+- **Usage:** `ollama list`, `ollama run model-name`
 
-## Office & Productivity Suite
-
-### LibreOffice
-Complete office suite with full document editing capabilities:
-
-- **Writer:** `libreoffice --writer` - Word processor
-- **Calc:** `libreoffice --calc` - Spreadsheet application
-- **Impress:** `libreoffice --impress` - Presentation software
-- **Draw:** `libreoffice --draw` - Vector graphics and flowcharts
-- **Base:** `libreoffice --base` - Database management
-- **Math:** `libreoffice --math` - Formula editor
-- **Documentation:** [docs](https://documentation.libreoffice.org/)
-
-## Web Browsers
-
-### Firefox
-- **Command:** `firefox`
-- **Description:** Full-featured web browser
-- **Features:** Extensions support, bookmarks sync, privacy controls
-- **Documentation:** [docs](https://support.mozilla.org/en-US/products/firefox)
-
-### Brave Browser
-- **Command:** `brave-browser`
-- **Description:** Privacy-focused web browser with built-in ad blocking
-- **Features:** Enhanced privacy, crypto wallet, tor browsing
-- **Documentation:** [docs](https://support.brave.app/hc/en-us)
-
-
-## File Management & System Tools
-
-### Dolphin
-- **Command:** `dolphin`
-- **Description:** Advanced file manager with dual-pane support
-- **Features:** Network browsing, archive support, preview pane
-- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/dolphin/)
+## Development Environment
 
 ### Kate
 - **Command:** `kate`
@@ -87,60 +58,11 @@ Complete office suite with full document editing capabilities:
 - **Best for:** Code editing, configuration files, markdown
 - **Documentation:** [docs](https://docs.kde.org/stable/en/applications/kate/)
 
-### Konsole
-- **Command:** `konsole`
-- **Description:** Terminal emulator with tabs and profiles
-- **Features:** Multiple tabs, customizable profiles, split view
-- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/konsole/)
-
-### Okular
-- **Command:** `okular`
-- **Description:** Universal document viewer
-- **Supports:** PDF, EPUB, images, DjVu, PostScript
-- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/okular/)
-
-
-## Graphics & Media
-
-### Shotwell
-- **Command:** `shotwell`
-- **Description:** Photo organizer and basic editor
-- **Best for:** Photo management, basic editing, organizing image collections
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/Shotwell)
-
-### VLC Media Player
-- **Command:** `vlc`
-- **Description:** Universal media player
-- **Supports:** Most video/audio formats, streaming, DVD/Blu-ray
-- **Documentation:** [docs](https://wiki.videolan.org/Documentation:User_Guide/)
-
-### Gwenview
-- **Command:** `gwenview`
-- **Description:** Fast image viewer and basic editor
-- **Features:** Slideshow, basic editing, RAW support
-- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/gwenview/)
-
-
-### Rhythmbox
-- **Command:** `rhythmbox`
-- **Description:** Music player and library manager
-- **Features:** Music library, playlists, radio, podcasts
-- **Documentation:** [docs](https://wiki.gnome.org/Apps/Rhythmbox)
-
-### Totem
-- **Command:** `totem`
-- **Description:** GNOME video player
-- **Features:** Video playback, subtitle support, playlist
-- **Documentation:** [docs](https://help.gnome.org/users/totem/stable/)
-
-## Development Tools
-
 ### Vim
 - **Command:** `vim`
 - **Description:** Powerful text editor for advanced users
 - **Best for:** System administration, configuration files, programming
 - **Documentation:** [docs](https://vimhelp.org/)
-
 
 ### Git
 - **Command:** `git`
@@ -166,20 +88,60 @@ Complete office suite with full document editing capabilities:
 - **Features:** Extensive library ecosystem, data science tools
 - **Documentation:** [docs](https://docs.python.org/3/)
 
+### Konsole
+- **Command:** `konsole`
+- **Description:** Terminal emulator with tabs and profiles
+- **Features:** Multiple tabs, customizable profiles, split view
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/konsole/)
 
-## System Utilities
+## Office & Productivity Suite
 
+### LibreOffice
+Complete office suite with full document editing capabilities:
 
-### Calculator
-- **Command:** `kcalc`
-- **Description:** Scientific calculator with multiple modes
-- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/kcalc/)
+- **Writer:** `libreoffice --writer` - Word processor
+- **Calc:** `libreoffice --calc` - Spreadsheet application
+- **Impress:** `libreoffice --impress` - Presentation software
+- **Draw:** `libreoffice --draw` - Vector graphics and flowcharts
+- **Base:** `libreoffice --base` - Database management
+- **Math:** `libreoffice --math` - Formula editor
+- **Documentation:** [docs](https://documentation.libreoffice.org/)
 
-### Archive Manager
-- **Command:** `ark`
-- **Description:** Archive creation and extraction tool
-- **Supports:** ZIP, TAR, RAR, 7Z, and many more formats
-- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/ark/)
+## File Management & System Tools
+
+### Dolphin
+- **Command:** `dolphin`
+- **Description:** Advanced file manager with dual-pane support
+- **Features:** Network browsing, archive support, preview pane
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/dolphin/)
+
+### Okular
+- **Command:** `okular`
+- **Description:** Universal document viewer
+- **Supports:** PDF, EPUB, images, DjVu, PostScript
+- **Documentation:** [docs](https://docs.kde.org/stable/en/applications/okular/)
+
+## Web Browsers
+
+### Firefox
+- **Command:** `firefox`
+- **Description:** Full-featured web browser
+- **Features:** Extensions support, bookmarks sync, privacy controls
+- **Documentation:** [docs](https://support.mozilla.org/en-US/products/firefox)
+
+### Brave Browser
+- **Command:** `brave-browser`
+- **Description:** Privacy-focused web browser with built-in ad blocking
+- **Features:** Enhanced privacy, crypto wallet, tor browsing
+- **Documentation:** [docs](https://support.brave.app/hc/en-us)
+
+## Content Creation
+
+### Shotwell
+- **Command:** `shotwell`
+- **Description:** Photo organizer and basic editor
+- **Best for:** Photo management, basic editing, organizing image collections
+- **Documentation:** [docs](https://wiki.gnome.org/Apps/Shotwell)
 
 
 ## Quick Launch Examples
@@ -191,13 +153,28 @@ ssh -X -i username_ssh_key username@10.0.0.1 dolphin
 # Then: Double-click any file to launch the appropriate application automatically!
 ```
 
-### AI Tools
+### AI & Machine Learning
 ```bash
 # Launch Msty for AI chat
 ssh -X -i username_ssh_key username@10.0.0.1 msty
+
+# Use Ollama CLI for model management
+ssh -i username_ssh_key username@10.0.0.1 ollama list
 ```
 
-### Office Applications
+### Development Environment
+```bash
+# Launch code editor
+ssh -X -i username_ssh_key username@10.0.0.1 kate
+
+# Launch terminal
+ssh -X -i username_ssh_key username@10.0.0.1 konsole
+
+# Use development tools (command line)
+ssh -i username_ssh_key username@10.0.0.1 # Then use git, node, python3, etc.
+```
+
+### Office & Productivity
 ```bash
 # Launch LibreOffice Writer
 ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --writer
@@ -209,87 +186,74 @@ ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --calc
 ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --impress
 ```
 
-### System Tools
+### File Management & System Tools
 ```bash
 # Launch file manager
 ssh -X -i username_ssh_key username@10.0.0.1 dolphin
-
-# Launch text editor
-ssh -X -i username_ssh_key username@10.0.0.1 kate
-
-# Launch web browser
-ssh -X -i username_ssh_key username@10.0.0.1 firefox
-
-# Launch photo organizer
-ssh -X -i username_ssh_key username@10.0.0.1 shotwell
 
 # Launch document viewer
 ssh -X -i username_ssh_key username@10.0.0.1 okular
 ```
 
-### Media Applications
-```bash
-# Launch VLC media player
-ssh -X -i username_ssh_key username@10.0.0.1 vlc
-
-# Launch image viewer
-ssh -X -i username_ssh_key username@10.0.0.1 gwenview
-
-# Launch music player
-ssh -X -i username_ssh_key username@10.0.0.1 rhythmbox
-
-# Launch video player
-ssh -X -i username_ssh_key username@10.0.0.1 totem
-```
-
 ### Web Browsers
 ```bash
-# Launch alternative browser
+# Launch Firefox
+ssh -X -i username_ssh_key username@10.0.0.1 firefox
+
+# Launch Brave browser
 ssh -X -i username_ssh_key username@10.0.0.1 brave-browser
+```
+
+### Content Creation
+```bash
+# Launch photo organizer
+ssh -X -i username_ssh_key username@10.0.0.1 shotwell
 ```
 
 ## Performance Tips
 
-### For Slow Connections
-Add compression to any command:
+### Connection Optimization
+**For slow connections, add compression:**
 ```bash
 ssh -XC -i username_ssh_key username@10.0.0.1 application_name
 ```
 
-### For Graphics-Heavy Applications
-Use trusted X11 forwarding if regular forwarding has issues:
+**For graphics-heavy applications, use trusted X11 forwarding:**
 ```bash
 ssh -Y -i username_ssh_key username@10.0.0.1 shotwell
 ```
 
 ### Workflow Optimization
-**Start with Dolphin file manager for best experience:**
+**Start with Dolphin file manager for the best experience:**
 ```bash
 ssh -XC -i username_ssh_key username@10.0.0.1 dolphin
 ```
-- Navigate to your files visually
+- Navigate to files visually
 - Double-click to launch appropriate applications automatically
 - No need to remember specific commands for each file type
 - Applications launch faster than full desktop environment
 
-## Installation Notes
-
-### FAMILY Users
-- Can install additional software using `sudo apt install package_name`
-- Have access to snap packages: `sudo snap install package_name`
-- Can add PPAs and third-party repositories
-
-### FRIENDS Users
-- Cannot install new software
-- Have access to all pre-installed applications
-- Can request software installation by contacting admin
-
-## Available Resources
+## System Resources
 
 ### AI Models
 - **Location:** `/opt/shared-models`
 - **Description:** Pre-installed language models for AI applications
 - **Usage:** Automatically available to Msty and other AI tools
+- **Access:** All users can access shared models for inference
+
+### User Permissions
+
+**FAMILY Users:**
+- Full system administrator access with `sudo`
+- Can install additional software: `sudo apt install package_name`
+- Access to snap packages: `sudo snap install package_name`
+- Can add PPAs and third-party repositories
+
+**FRIENDS Users:**
+- Access to all pre-installed applications
+- Cannot install new software
+- Can request software installation by contacting admin
+- Resource limits: 8GB RAM, 200 processes, 4 hours CPU time/day
 
 ---
 
