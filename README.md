@@ -324,38 +324,25 @@ chmod +x ~/.local/share/applications/positron-desktop.desktop
 
 ## Applications Available
 
-Once connected, you have access to:
+📱 **[View Complete Application Library →](APPLICATIONS.md)**
 
-- **Msty** - AI chat interface (`msty`)
-- **Msty Studio** - Advanced AI development environment (`mstystudio`)
-- **LibreOffice** - Complete office suite:
-  - Writer: `libreoffice --writer`
-  - Calc: `libreoffice --calc`
-  - Impress: `libreoffice --impress`
-  - Draw: `libreoffice --draw`
-- **Firefox** - Web browser (`firefox`)
-- **Dolphin** - File manager (`dolphin`)
-- **Kate** - Text editor (`kate`)
-- **Konsole** - Terminal emulator (`konsole`)
-- **Okular** - PDF viewer (`okular`)
-- **GIMP** - Image editor (`gimp`)
-- **VLC** - Media player (`vlc`)
-- **And many more standard Linux applications**
+The system includes:
+- **AI Tools:** Msty, Msty Studio
+- **Office Suite:** LibreOffice (Writer, Calc, Impress, Draw)
+- **Development:** VS Code, Git, text editors
+- **Graphics & Media:** GIMP, VLC, image viewers
+- **System Tools:** File managers, browsers, utilities
 
-### Direct App Launch Examples
+### Quick Launch Examples
 ```bash
-# AI Tools
+# Launch Msty AI chat
 ssh -X -i username_ssh_key username@10.0.0.1 msty
-ssh -X -i username_ssh_key username@10.0.0.1 mstystudio
 
-# Office Applications
+# Launch LibreOffice Writer
 ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --writer
-ssh -X -i username_ssh_key username@10.0.0.1 libreoffice --calc
 
-# System Tools
+# Launch file manager
 ssh -X -i username_ssh_key username@10.0.0.1 dolphin
-ssh -X -i username_ssh_key username@10.0.0.1 kate
-ssh -X -i username_ssh_key username@10.0.0.1 firefox
 ```
 
 ## Quick Reference
